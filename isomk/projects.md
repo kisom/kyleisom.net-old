@@ -1,8 +1,11 @@
-Projects
-========
+Hardware Projects
+=================
+This page is all hardware hacking projects; software projects can be found
+on [brokenlcd](http://www.brokenlcd.net).
+
 Project updates are mostly likely to go [tumblr](http://brokenlcd.tumblr/com)
 before propagating here. I don't have hacking space at the moment, so all
-of the following projects are on hold.
+of the following projects are on hold. 
 
 
 Arduino Development Board
