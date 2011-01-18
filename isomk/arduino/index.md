@@ -27,3 +27,24 @@ integer for storing the pin used, 22 bytes per additional instance.
 Includes debouncing and uses internal resistor.
 
 
+**Demo Sketches**
+-----------------
+**Warning**: these are usually thrown together quickly to very rapidly test 
+code / libraries, and generally have minimal commenting. Read at your own 
+risk.
+
+* [LCD/ThumbStick interface to RTC](sketch/RTC_LCD.pde) (uses the ThumbStick
+and DS1307 libraries). This file will compile to almost 12k of arduino of 
+code. There are several two-dimensional char arrays to display things in a 
+human-friendly manner, which use 278 bytes of RAM, a little over the quarter
+of of the ATmega168's available RAM. This provides a user-friendly way to 
+view the RTC's functions and to easily set and verify the date and time on 
+the RTC. The code is not commented, one day I might get around to commenting
+it.
+* [I2C Scanner](sketch/I2C_scanner.pde). A modified version of Tod Kurt's 
+I2C scanner, the source has a link to his site.
+* [Ping Test](sketch/PingTest.pde). A very quick test to display the 
+distance in centimeters from a Ping))) sensor triggered via pushbutton over 
+a serial connection. Uses pushbutton and Ping libraries.
+
+

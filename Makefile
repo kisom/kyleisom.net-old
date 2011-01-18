@@ -16,3 +16,4 @@ clean:
 	rm -rf $(BASE)/isomk.static
 
 
+.PHONY: all isomk clean

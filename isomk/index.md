@@ -12,7 +12,8 @@ I was a computer science major at the
 previous employer, school is currently on hold. I now work in the computer 
 security field as a security engineer, and next year I hope to begin taking 
 some classes to begin finishing my degree. I am currently working as a
-software security engineer.
+software security engineer. My PGP key ID is `0x18B4AA48` and can be 
+pulled either from [here](isomk.asc) or most public keyservers.
 
 Technical Interests
 -------------------
