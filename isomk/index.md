@@ -3,7 +3,7 @@
 
 [Contact](/contact.html)   
 [Projects](/projects.html)   
-[Coder](http://www.brokenlcd.net)
+[Coder](http://www.brokenlcd.net)  
 [tumblr](http://brokenlcd.tumblr.com)   
 [blog](/blog/)   
 

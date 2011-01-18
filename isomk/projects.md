@@ -17,7 +17,7 @@ thumbstick and 16x2 LCD to allow interfacing and quick menus to provide
 access to test functions. It made developing some Arduino libraries much 
 faster than if I was using serial. I've got photos up at a 
 [Picasa web album](http://picasaweb.google.com/brokenlcd/ArduinoHandheld).
-My Arduino libraries are available on my i
+My Arduino libraries are available on my 
 [Arduino page](/arduino/index.html). 
 
 
