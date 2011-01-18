@@ -1,6 +1,3 @@
-.:[ Kyle Isom ]:.
-=================
-
 [Contact](/contact.html)   
 [Projects](/projects.html)   
 [Coder](http://www.brokenlcd.net)  
@@ -11,9 +8,14 @@ I was a computer science major at the
 [Colorado School of Mines](http://mines.edu). Due to some headaches with a 
 previous employer, school is currently on hold. I now work in the computer 
 security field as a security engineer, and next year I hope to begin taking 
-some classes to begin finishing my degree. I am currently working as a
-software security engineer. My PGP key ID is `0x18B4AA48` and can be 
-pulled either from [here](isomk.asc) or most public keyservers.
+some classes to begin finishing my degree. 
+
+My PGP key ID is `0x18B4AA48` and can be pulled either from 
+[here](isomk.asc) or most public keyservers.
+
+    pub   1024D/18B4AA48 2007-07-14 Kyle Isom <isomk [at] kyleisom [dot] net>
+    Key fingerprint: F49C B67A E3AF C14A FEA2  6546 D95E 74DD 18B4 AA48
+    keyserver: pgp.mit.edu
 
 Technical Interests
 -------------------

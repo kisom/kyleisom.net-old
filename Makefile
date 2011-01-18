@@ -9,7 +9,8 @@ SITE=isomk
 RHOST=kisom@kyleisom.net:public_html/ 
 
 # don't touch - we need this for sw to work properly
-BASE=$(PWD) 
+# watch out for trailing spaces! woe be unto him who allows trailing spaces!
+BASE=$(PWD)
 
 all:	site-gen site-push
 
