@@ -18,4 +18,7 @@ to a BSD makefile.
 The source for the site is available on 
 **[github](https://github.com/kisom/kyleisom.net)**.
 
-
+I have a **[site-tools](https://github.com/kisom/site-tools)** repo with my 
+modifications to sw, setup script, a stock Makefile, and sample setup files.
+You might find it useful to get started, if you are interested in using
+smu and sw as well.
