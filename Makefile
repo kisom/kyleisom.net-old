@@ -1,4 +1,5 @@
 # site-tools Makefile to build and push a site built using smu and sw.
+# usage: edit SITE and RHOST
 # 	- Kyle Isom <coder@kyleisom.net>
 
 # directory containing site source
@@ -6,19 +7,20 @@ SITE=isomk
 
 # ensure RHOST has a trailing slash!
 #     e.g. foo@spam:baz/
-RHOST=kisom@kyleisom.net:public_html/ 
+RHOST=kisom@kyleisom.net:public_html/
 
 # don't touch - we need this for sw to work properly
-# watch out for trailing spaces! woe be unto him who allows trailing spaces!
-BASE=$(PWD)
+BASE="$(PWD)"
 
-all:	site-gen site-push
 
-site-gen:
+### shouldn't need to modify anything below these lines ###
+
+all:	site
+
+site:
 	sw $(BASE)/$(SITE)
-	rsync -auvz -e "ssh" $(SITE).static/ $(RHOST)
 
-site-push:
+install: 
 	rsync -auvz -e "ssh" $(SITE).static/ $(RHOST)
 
 clean:
@@ -26,7 +28,10 @@ clean:
 
 target-list:
 	@echo "valid targets:"
-	@echo "	site-gen: build site and push it "
+	@echo "	site:  	 build site and push it "
+	@echo " install: rsync site to RHOST"
+	@echo " clean:   remove \$(SITE).static"
+	@echo " "
 
 
 .PHONY: all clean site-gen
