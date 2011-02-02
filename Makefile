@@ -7,10 +7,9 @@ SITE=isomk
 
 # ensure RHOST has a trailing slash!
 #     e.g. foo@spam:baz/
-RHOST=kisom@kyleisom.net:public_html/
+RHOST=kisom@brokenlcd.net:public_html/
 
-# don't touch - we need this for sw to work properly
-BASE="$(PWD)"
+TARGET="$(PWD)/$(SITE)"
 
 
 ### shouldn't need to modify anything below these lines ###
@@ -18,13 +17,13 @@ BASE="$(PWD)"
 all:	site
 
 site:
-	sw $(BASE)/$(SITE)
+	rawk $(TARGET)
 
 install: 
-	rsync -auvz -e "ssh" $(SITE).static/ $(RHOST)
+	rsync -auvz -e "ssh" $(SITE).build/ $(RHOST)
 
 clean:
-	rm -rf $(SITE).static
+	rm -rf $(SITE).build
 
 target-list:
 	@echo "valid targets:"
@@ -34,5 +33,5 @@ target-list:
 	@echo " "
 
 
-.PHONY: all clean site-gen
+.PHONY: all clean site 
 
