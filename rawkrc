@@ -8,7 +8,7 @@ uname_comment="true"
 
 # blacklist definition
 bl="$bl ^images$"               # don't link to image dir
-bl="%bl ^styles$"
+bl="$bl ^styles$"
 bl="$bl ^keys$"                 # don't link to keys dir
 bl="$bl ^files$"                # don't link to files dir
 bl="$bl ^restrict$ ^private$"   # don't link to private files
