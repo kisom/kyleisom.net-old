@@ -2,7 +2,8 @@
 [Projects](/projects.html)   
 [Coder](http://www.brokenlcd.net)  
 [tumblr](http://brokenlcd.tumblr.com)   
-[blog](/blog/)   
+[blog](/blog/)    
+[devious page](http://kisom.devio.us)    
 
 I was a computer science major at the 
 [Colorado School of Mines](http://mines.edu). Due to some headaches with a 
