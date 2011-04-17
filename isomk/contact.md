@@ -1,6 +1,13 @@
 .:[ Contact Information ]:.
 ===========================
 
+Contact Card
+------------
+![contact QR code](images/kyle_isom_qrcode_sm.png)    
+[vcard](files/kyle_isom.vcf)    
+[large QR code](images/kyle_isom_qrcode.png)    
+
+
 Phone
 -----
 * 2709.533.303 (google voice)
