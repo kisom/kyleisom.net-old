@@ -12,11 +12,11 @@ previous employer, school is currently on hold. I now work in the computer
 security field as a security engineer, and next year I hope to begin taking 
 some classes to begin finishing my degree. 
 
-My PGP key ID is `0x18B4AA48` and can be pulled either from 
-[here](isomk.asc) or most public keyservers.
+My PGP key ID is `0x63AD01BF` and can be pulled either from 
+[here](files/kyle.asc) or most public keyservers.
 
-    pub   1024D/18B4AA48 2007-07-14 Kyle Isom <isomk [at] kyleisom [dot] net>
-    Key fingerprint: F49C B67A E3AF C14A FEA2  6546 D95E 74DD 18B4 AA48
+    pub   4096R/63AD01BF 2011-06-18 [expires: 2014-01-02]
+    Key fingerprint = BDAD 4068 EF75 0A49 49CC  82A0 8705 DF24 63AD 01BF
     keyserver: pgp.mit.edu
 
 Technical Interests
