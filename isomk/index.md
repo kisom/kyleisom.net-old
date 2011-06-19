@@ -4,6 +4,7 @@
 [tumblr](http://brokenlcd.tumblr.com)   
 [blog](/blog/)    
 [devious page](http://kisom.devio.us)    
+[github page](http://kisom.github.com)    
 
 I was a computer science major at the 
 [Colorado School of Mines](http://mines.edu). Due to some headaches with a 
