@@ -22,6 +22,6 @@ address as well.
 
 PGP
 ---
-    pub   1024D/18B4AA48 2007-07-14 Kyle Isom <isomk [at] kyleisom [dot] net>
-    Key fingerprint: F49C B67A E3AF C14A FEA2  6546 D95E 74DD 18B4 AA48
+    pub   4096R/63AD01BF 2011-06-18 [expires: 2014-01-02]
+    Key fingerprint = BDAD 4068 EF75 0A49 49CC  82A0 8705 DF24 63AD 01BF
     keyserver: pgp.mit.edu
